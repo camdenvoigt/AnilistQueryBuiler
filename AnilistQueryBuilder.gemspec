@@ -6,12 +6,12 @@ require "AnilistQueryBuilder/version"
 Gem::Specification.new do |spec|
   spec.name          = "AnilistQueryBuilder"
   spec.version       = AnilistQueryBuilder::VERSION
-  spec.authors       = ["="]
-  spec.email         = ["cjvoigt@iastate.edu"]
+  spec.authors       = ["Camden Voigt"]
+  spec.email         = ["camdenvoigt@gmail.edu"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Gem to create queries for the Anilist API}
+  spec.description   = %q{This gem will help create the complicated graphql queries for the Anilist API}
+  spec.homepage      = "https://github.com/camdenvoigt/AnilistQueryBuiler.git"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'

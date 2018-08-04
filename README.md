@@ -1,24 +1,12 @@
 # AnilistQueryBuilder
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/AnilistQueryBuilder`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This is a gem to help write queries for Anlists API 2.0 (https://anilist.gitbook.io/anilist-apiv2-docs/).
+Instead of writing queries inside of long string that can be hard to read AnlistQueryBuilder will allow queries to
+be created directly in code. This code also looks similar to actual GraphQL syntax and therefore will be easy to translate and lead to less errors.
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'AnilistQueryBuilder'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install AnilistQueryBuilder
+TODO: Write installation instructions
 
 ## Usage
 
@@ -32,7 +20,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/AnilistQueryBuilder. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/camdenvoigt/AnilistQueryBuilder. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 

@@ -6,7 +6,12 @@
 /pkg/
 /spec/reports/
 /tmp/
+*.gem
+Gemfile.lock
+
+# Mac/Unix files
+*.swp
+.DS_STORE
 
 # rspec failure tracking
 .rspec_status
-*.swp
